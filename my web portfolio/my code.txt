@@ -1,0 +1,886 @@
+my web portfolio
+
+Html and javascript
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="vieport" content="width-device-width, initial-scale=1.0">
+        <title> My Portfolio Website </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/ce67a01ec9.js"
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    </head>
+ <body>
+    </div>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>  
+                <i class="fas fa-bars" onclick="openmenu()"></i> 
+           
+            </nav>
+            <div class="header-text">
+                <p> <span class="auto-type">.</span></p>
+                <hi>Hi! I'm <span>Tola</span> Onabajo</hi>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/tola-onabajo-0bb8a121a"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://instagram.com/tola_onabajo"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/tolaonabajo"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://github.com/tolaonabajo"><i class="fab fa-github-square"></i></a>
+                    <a href="https://behance.net/"><i class="fab fa-behance-square"></i></a>       
+                </div>
+             
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--------------about-------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="profile-pic.png" alt="profile picture">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me & What I Do</h1>
+                <p>I'm a Sofware Developer and a Brand Designer with great passion for building excellent
+                    Websites, Softwares and Brand Identities, I also have a strong aptitude for learning new technologies.
+                    Feel free to say hi! </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming language</span><br>Javascript</li>
+                            <li><span>Web Frameworks</span><br>React, Next JS, Node JS, Express, Jquery</li>
+                            <li><span>Database</span><br>SQL, Mongo DB</li>
+                            <li><span>Tools</span><br>Git, GitHub, Material UI, Ant Design, Tailwind, Bootstrap, </li>
+                            <li><span>Design Sofwares</span><br>Adobe Photoshop, Adobe Illustrator</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>Olabisi Onabanjo University, Ogun State Nigeria.</span><br>
+                                Bachelor of Science - Electrical & Electronics Engineering <br>Oct 2015-2020</li>         
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------Projects------------>
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="paysprint.png" alt="paysprint">
+                <div class="layer">
+                    <h1>PaySprint</h1>
+                    <p>Paysprint is a safe and secure way to send and receive money from over 100 Countries
+                        at no cost.</p>
+                
+                        <a href="https://paysprint.ca"><i class="fas fa-external-link-alt"></i></a>
+                
+                </div>
+            </div>
+            <div class="work">
+                <img src="oaco.png" alt="oaco">
+                <div class="layer">
+                    <h1>OACO</h1>
+                    <p>OACO Professional Services is a highly dynamic firm of Chartered Accountants.
+                        </p>
+                        <a href="https://oacoprofessionalservices.com"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="sizzles.png" alt="paysprint">
+                <div class="layer">
+                    <h1>sizzles</h1>
+                    <p>A simple ordering sytem for Sizzles Confectionery.
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/tolaonabajo" class="btn">See more Projects</a>
+        <div class="brand">
+            <hr>
+            <h2>Here are some of the Brands and Brand Identities I've worked on over the years</h2>
+            <img src="cliqmore.png" alt="cliqmore">
+            <img src="mobilehealth.png" alt="Mobile Health Initiative">
+            <img src="techsol.png" alt="Tech-Sol Consult">
+            <img src="soar.png" alt="soar">
+            <img src="owoteegenesis.png" alt="Owotee Genesis">
+            <img src="spicy.png" alt="Spicy Trends">
+            <img src="EXBC.png" alt="EXBC">
+            <img src="paysprintlogo.png" alt="paysprint">
+            
+            <h3><a href="https://behance.net/olalekanomotola"><span> click here</span></a> to see more</h3>
+            <hr>
+
+        
+        </div>
+       
+    </div>
+</div>
+
+<!--------------Testimonials------------>
+<div id="testimonials">
+    <div class="container">
+        <hi class="sub-title">Testimonials</hi>
+        <div class="testimonials-list">
+            <div>
+                <p>I have worked with many Programmers and Designers over the past
+                    30 years while building companies. Tola stands out the most creative
+                    of them all. I enjoyed the thoughts behind his works. I recommend him to anyone
+                    that needs his services. </p>
+                    <a href="https://www.linkedin.com/in/duntanadebiyi"><span> Adebiyi Olusegun,</span></a> CEO PaySprint
+            </div>
+            <div>
+                <p>Tola Onabajo is very creative and one of the best Brand Designer i've ever worked with,
+                    very good at what he does, his efficiency and professional way of handling
+                    projects is top-notch </p>
+                    <a href="https://www.linkedin.com/in/adenuga-adebambo-343297b5"><span> Adenuga Adebambo,</span></a> Software Developer
+            </div>
+            <div>
+                <p>Tola is good developer, He has done so many works for me, including my multi-page portfolio. He is very
+                    reliable and always implement his works in a professional way. His Technical and Branding
+                    skills are great.
+                 </p>
+                    <a href="https://www.linkedin.com/in/omololu-onabajo-498393136"><span> Onabajo Omololu,</span></a> Data Analist
+        </div>
+    </div>
+</div>
+
+<!-----------contact------------>
+<div id="contact">
+<div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <hi class="sub-title">Contact Me</hi>
+            <h2>Intereted in working together? Wherever you are with your idea or project, I'll be happy
+                to help. </h2>
+            <p><i class="fas fa-paper-plane"></i>oolalekanomotolase@gmail.com</p>
+            <p><i class="fas fa-phone-square-alt"> </i>+234 (706) 804 - 0589</p>
+            <div class="social-icons">
+            <a href="https://www.linkedin.com/in/tola-onabajo-0bb8a121a"><i class="fab fa-linkedin"></i></a>
+            <a href="https://instagram.com/tola_onabajo"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/tolaonabajo"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://github.com/tolaonabajo"><i class="fab fa-github-square"></i></a>
+            <a href="https://behance.net/tola onabajo"><i class="fab fa-behance-square"></i></a>       
+        </div>
+        <a href="" class="btn btn2">Download my CV</a>
+    </div>
+             
+    <div class="contact-right">   
+        <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+    </div>
+ </div>
+</div>
+
+
+<!---------------button to top----------->
+    <a href="#" class="to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+
+<div class="copyright">
+    <p> © 2022 with <i class="fas fa-heart"></i> Tola Onabajo</p>
+</div>
+</div>
+
+<!---------skills and Education------>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-content");
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<!--------side menu---------->
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right= "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<!------------message box sent-------------->
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxbynKCfPdU4GzVURelh4hyS41xb9p74DoRcj57UUybs8dQEy2CTgjq_TqSrPTXKV4Q/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+
+        },5000)   
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+<!-----------programmer, Designer--------->
+
+<script>
+    var typed = new Typed(".auto-type",{
+        strings: [,"Programmer, Designer.","keep It Simple, Not Complicated.",],
+        typeSpeed: 90,
+        backSpeed: 20,
+        loop: true
+    })
+</script>
+
+<!------------scroll up button-------->
+
+<script>
+    const toTop = document.querySelector(".to-top");
+
+    window.addEventListener("scroll", () =>{
+        if (window.pageYOffset >100) {
+            toTop.classList.add("active");
+            } else {
+            toTop.classList.remove("active");
+        }
+    })
+</script>
+ </body>
+</html>
+  
+
+
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+CSS
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', 'sans-serif';
+  box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #080808;
+    color:#fff;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(background.png);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    padding: 10px 10%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 150px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+
+  
+}
+nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #cdb12d;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.header-text{
+    margin-top:20%;
+    font-size:30px;
+    justify-content: center;
+    text-align: center;
+    font-family: "Gilroy";
+}
+
+.header-text hi{
+    font-size: 60px;
+    margin-top: 20px;
+    font-family: "montserrat";
+    font-weight: 600;
+    
+}
+
+.header-text hi span{
+    color:#cdb12d;
+}
+
+
+
+/*----------about----------*/
+#about{
+    padding: 80px 0;
+    color: #ababab;
+}
+.row{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 40%;
+}
+.about-col-1 img{
+    filter: grayscale(1);
+    width: 500px;
+    height: 500px;
+    margin-right: 70px;
+    cursor: pointer;
+    transition: transform 0.5s;
+   
+}
+.about-col-1 img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.06);
+
+}
+
+.about-col-2{
+    flex-basis: 46%;
+}
+
+.sub-title{
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+}
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #cdb12d;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.tab-links.active-link::after{
+    width: 50%;
+
+}
+.tab-content ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+.tab-content ul li span{
+    color:#cdb12d;
+    font-size: 14px;
+}
+.tab-content{
+    display: none;
+
+}
+.tab-content.active-tab{
+    display: block;
+}
+
+/*-----------projects---------*/
+#projects{
+    padding: 50px 0;
+
+}
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;   
+}
+.work img{
+    width: 100%;
+    border-radius: 30px;
+    display: block;
+    margin-top: 15px;
+    transition: transform 0.5s;
+    padding: 0 10px 10px 10px;
+  
+}
+
+.layer{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), #aa8f0e);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}
+.layer h1{
+    font-weight: 500;
+    margin-bottom: 20px;
+  
+}
+.layer a{
+    margin-top: 20px;
+    color: #aa8f0e;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background:#fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+   
+   
+}
+
+
+.work:hover img{
+    transform: scale(1.1);
+}
+.work:hover .layer{
+    height: 100%;
+    width: 100%;
+}
+/*--------brand Identities--------*/
+
+.brand h2{
+    font-size: 17px;
+    font-weight: 70;
+    padding-top: 20px;
+    color: #fff;
+    text-align: center;
+    margin-top: 12px;
+}
+.brand img{
+    height: 100px;
+    width: 180px;
+    margin-top: -5px;
+    margin-right: 40px;
+    margin-left: 40px;
+    filter: grayscale(1);
+   
+}
+.brand img:hover{
+    filter: grayscale(0);
+    transition: 0.3s;
+    transform: scale(1.05);
+
+}
+
+.brand h3{
+    font-size: 17px;
+    font-weight: 70;
+    color: #fff;
+    text-align: center;
+    margin-top: 12px;
+    text-decoration: none;
+}
+.brand h3 span{
+    color: #cdb12d;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #080808;
+}
+
+
+
+ hr{
+    margin-bottom: -20px;
+    height: 2px;
+    margin-top: 100px;
+    background-color: #313131;
+    border: none;
+    margin: 30px 0 10px 10px;
+ 
+}
+
+.btn{
+    display: block;
+    margin: 4% auto;
+    width: fit-content;
+    border: 1px solid #aa8f0e;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s;
+}
+
+.btn:hover{
+    background: #aa8f0e;
+}
+
+/*----------------Testimonials----------*/
+#testimonials{
+    padding: 30px 0;
+   
+}
+.testimonials-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+    margin-top: 15px;
+}
+.testimonials-list div{
+    background: #121212;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition:background 0.5s, transform 0.5s;
+}
+.testimonials-list div p{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.testimonials-list div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 11px;
+    margin-top: 20px;
+    display: inline-block;
+        
+    }
+    .testimonials-list div a span{
+        color:#cdb12d;
+        font-size: 14px;
+        font-weight: 200;
+    }
+    .testimonials-list div:hover{
+        background:#2a2a2a;
+        transform: translateY(-10px);
+    }
+
+    /*-------------contact------------*/
+    .contact-left{
+        flex-basis: 35%;
+        padding-top: 50px;
+    
+    }
+    .contact-right{
+        flex-basis: 60%;
+    }
+    .contact-left p{
+        margin-top: 25px;
+        color: #ababab;
+     
+    }
+    .contact-left h2{
+        font-size: 16px;
+        font-weight: 100;
+        margin-top: 16px;
+        color: #ababab;
+
+    }
+
+
+
+    .contact-left p i{
+        color:#aa8f0e;
+        margin-right: 15px;
+        font-size: 25px;
+        
+    }
+    .social-icons{
+        margin-top: 30px;
+    }
+    .social-icons a{
+        text-decoration: none;
+        font-size: 30px;
+        margin-right: 15px;
+        color: #ababab;
+        display: inline-block;
+        transition: transform 0.5s;
+    
+    }
+    .social-icons a:hover{
+        color:#aa8f0e;
+        transform:translateY(-5px);
+    }
+.btn.btn2{
+    display: inline-block;
+    background:#aa8f0e;
+
+}
+
+.contact-right form{
+    width: 100%;
+    padding-top: 50px;
+   
+
+}
+
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+   
+}
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    background: #262626;
+    margin-top: 20px;
+}
+
+.copyright i{
+    color:#a74317;
+}
+
+.to-top{
+    background:#cdb12d;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color:#fff;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+}
+
+.to-top.active{
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+}
+
+/*---------------css for small screens------*/
+nav .fas{
+    display: none;
+}
+@media only screen and (max-width: 600px){
+    #header{
+        background-image: url(phone-background.png);
+     
+    }
+    .header-text{
+        margin-top:100%;
+        font-size: 20px;
+        margin-top: 50%;
+    }
+    .header-text hi{
+        font-size: 35px;
+    }
+    nav .fas{
+        display: block;
+        font-size: 25px;
+    }
+    nav ul{
+        background: #080808;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .fas{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    nav ul li a::after{
+        content: '';
+        width: 0%;
+        height: 3px;
+        background: #cdb12d;
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition: 0.5s;
+    }
+    nav ul li a:hover::after{
+        width: 100%;
+    }
+    .sub-title{
+        font-size: 35px;
+    }
+    .about-col-1 img{
+        width: 370px;
+        height: 370px;
+    }
+    .about-col-1, .about-col-2{
+        flex-basis: 100%;
+    }
+    .about-col-1{
+        margin-bottom: 30px;
+    }
+    .about-col-2{
+        font-size: 16px;
+    }
+    .tab-links{
+        font-size: 15px;
+        margin-right: 20px;
+    }
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+    }
+    .copyright{
+        font-size: 14px;
+    }
+
+    .brand img{
+        height: 80px;
+    width: 150px;
+    margin-top: -5px;
+    margin-right: 20px;
+    margin-left: 20px;
+    }
+    .brand h2{
+        font-size: 15px;
+    }
+    .brand h3{
+        font-size: 15px;
+    }
+    
+.to-top{
+    background:#cdb12d;
+    position: fixed;
+    bottom: 16px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color:#fff;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+}
+
+.to-top.active{
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+}
+}
+
+#msg{
+    color: #61b752;
+    margin-top: -15px;
+    display: block;
+}
+
+
+
